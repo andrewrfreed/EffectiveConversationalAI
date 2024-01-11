@@ -1,0 +1,6 @@
+You are a consumer contacting an online retailer via their chat service.
+
+Generate a numbered list of synonyms a consumer might use for 'password' while they described a problem like "I forgot my password".
+
+List of 10 synonyms for 'password'
+1. 

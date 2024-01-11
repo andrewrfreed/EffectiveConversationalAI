@@ -1,0 +1,3 @@
+Generate a list of nouns. The nouns should be synonyms of 'password'.
+
+List of 5 nouns

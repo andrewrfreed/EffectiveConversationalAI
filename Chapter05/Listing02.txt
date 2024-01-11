@@ -1,0 +1,6 @@
+You are a consumer contacting an online retailer via their chat service.
+
+Generate a numbered list of nouns a consumer might use while describing their inability to log in to your service in the phrase "I forgot my password". The nouns should be synonyms of 'password'.
+
+List of 5 nouns 
+1. 

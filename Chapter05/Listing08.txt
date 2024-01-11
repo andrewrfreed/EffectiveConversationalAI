@@ -1,0 +1,6 @@
+You are a consumer contacting an online retailer via their chat service. 
+
+Generate a numbered list of example fragments a consumer might start conversation with if they couldn't log in.  Use a variety of nouns and verbs related to logging in, passwords, and accounts.  Use sentence fragments only. #A
+
+List of 10 sentence fragments
+1. 

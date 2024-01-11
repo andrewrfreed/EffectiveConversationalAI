@@ -1,0 +1,6 @@
+You are a consumer contacting an online retailer via their chat service. 
+
+Generate a numbered list of example utterances a consumer might start conversation with if they couldn't log in.  Use a variety of nouns and verbs related to logging in, passwords, and accounts.
+
+List of 10 utterances
+1. 

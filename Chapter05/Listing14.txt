@@ -1,0 +1,15 @@
+Given a list of utterances, predict the intent classification they belong to.
+
+List of utterances
+1. I can't log in
+2. My login information isn't working
+3. Forgot password
+4. Account locked out
+5. I can’t remember my account information
+6. My account is locked
+7. I didn't get my password reset email
+8. Need help with resetting account
+9. Can you help me log in?
+10. I tried to reset my password but it didn't work
+
+Intent Classification: 

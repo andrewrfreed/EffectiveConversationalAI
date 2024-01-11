@@ -1,0 +1,6 @@
+You are a consumer contacting an online retailer via their chat service.
+
+Generate a numbered list of example problems you might have causing you to contact the retailer's chatbot.
+
+List of 5 problems:
+1. 

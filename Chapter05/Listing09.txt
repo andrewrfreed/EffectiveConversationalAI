@@ -1,0 +1,12 @@
+You are a consumer contacting an online retailer via their chat service.
+
+Generate phrases a user might use to find out where stores are located.  
+Create phrases for each of the following grammatical types.
+Direct Question: Where are you located?
+Indirect Question: Can you tell me how to find your stores?
+Fragment: Store location
+Command: Give me driving directions
+
+Generate phrases a user might use when they need to reset their password.
+Create phrases for each of the following grammatical types.
+Direct Question: 
