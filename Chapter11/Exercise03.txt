@@ -1,0 +1,6 @@
+{
+    "TaxID": 123456789, 
+    "MemberID": 87654321, 
+    "ClaimID": 111222333, 
+    "Summary": "The user requests a human representative because they want more information about their insurance claim."
+}

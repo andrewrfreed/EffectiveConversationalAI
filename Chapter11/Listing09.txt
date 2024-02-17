@@ -1,0 +1,20 @@
+<|instruction|>
+Read the following conversation transcript between a user and the automated assistant. Extract all IDs in JSON format. 
+
+<|transcript|>
+AI: "Welcome to the automated assistant, how can I help?"
+User: "Claim status"
+AI: "Ok, claims. What's your Tax ID?"
+User: "123456789"
+AI: "Thank you. What's the member's eight-digit Member ID?"
+User: "87654321"
+AI: "Ok, and what's the member's date of birth?"
+User: "12/31/2000"
+AI: "Is the member's name John Doe?"
+User: "Yes"
+AI: "Great! What's the date of service for the claim?"
+User: "February first 2024"
+AI: "I found your claim #111222333 from February 1, 2024 for the member #87654321 and provider #123456789. It was paid on May 23, 2024 for $201.83."
+User: "representative"
+
+<|JSON|>

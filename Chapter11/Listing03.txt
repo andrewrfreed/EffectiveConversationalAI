@@ -1,0 +1,9 @@
+# Pseudo-code roughly structured in Python syntax
+# Your conversational AI platform will likely support one or more webhook formats
+def transcript_webhook(request, response):
+  userMessage = request.input.text
+  botMessage  = response.output.text
+  if(userMessage != null)
+    response.context.transcript += 'User: ' + userMessage + '\n'
+  if(botMessage  != null)
+    response.context.transcript += 'Bot: ' + botMessage + '\n'

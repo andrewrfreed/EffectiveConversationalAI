@@ -1,0 +1,7 @@
+# Pseudo-code roughly structured in Python syntax
+# Your conversational AI platform will likely support one or more webhook formats
+def on_transfer(request, response):
+  summary = ConversationSummary()
+  summary.providerTaxID = response.context.ProviderTaxID
+  summary.memberID      = response.context.MemberID
+  summary.claimID       = response.context.ClaimID
