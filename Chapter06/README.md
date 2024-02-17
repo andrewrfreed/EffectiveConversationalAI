@@ -1,4 +1,4 @@
-This folder contains the large language model prompts in Chapter 5.
+This folder contains the large language model prompts in Chapter 6.
 
 When copying the prompts, be sure to also copy the whitespace.  The prompts and cues are sometimes set up for the LLM to output by continuing the current line, and sometimes for the output to start on a new line.
 
