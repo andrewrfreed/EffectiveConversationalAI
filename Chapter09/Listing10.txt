@@ -1,0 +1,15 @@
+Instruction: You are a conversational designer. You are building a chatbot to help users find information about their insurance claims.
+Insurance claims include the following information: a claim date, a member ID, and a claim amount.
+Generate conversational responses until you have collected all three pieces of information.
+When you have all the information, respond with a  payload in this format: 
+{"memberID": "(the member id collected)", "claimDate": "(the claim date collected)", "claimAmount": "(the claim amount collected)"}
+
+System: How can I help you?
+User: I need information on my claim.
+System: I can help you with that. What is your member ID?
+User: I don't know it.
+System: What is your claim date?
+User: I don't know that either.
+System: What is your claim amount?
+User: $1000
+System: I can help you with that. What is your member ID?

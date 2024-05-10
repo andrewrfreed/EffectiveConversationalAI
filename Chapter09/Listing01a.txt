@@ -1,0 +1,5 @@
+Instruction: You are a conversational designer. You are building a chatbot to help users find information about their insurance claims. Insurance claims include the following information: a claim date, a member ID, a claim amount, and a claim status. 
+Design a dialogue flow that helps users find their claim. The dialogue flow should be as brief as possible and easy for the users to complete. 
+Describe why you have constructed the dialogue flow this way. 
+
+Output:  

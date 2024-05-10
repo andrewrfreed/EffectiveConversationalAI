@@ -1,0 +1,12 @@
+<|instruction|>
+You are supporting a digital assistant.  A user is asking a question about one of their bank accounts.  Use the contextual information provided to identify the bank account they are most likely asking about.
+
+<|user|>
+How much is money is the account I just opened?
+
+<|context|>
+User Name: Bob
+Accounts: [ {"id":12345, "type":"checking", "owners":["Bob","Jane"], "opened":"12/25/2000"}, {"id":23456, "type":"saving", "owners":["Bob","Jane"], "opened":"1/3/2005}, {"id":34567, "type":"saving", "owners":["Bob","Jack"], "opened": "2/4/2024"}]
+
+<|output|>
+Account id:
