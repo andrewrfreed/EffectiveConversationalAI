@@ -1,20 +1,16 @@
-Summarize the following conversation transcript between a user and an AI
-The summary should be 1-2 sentences long.
+<|instruction|>
+You are a copy editor designing dialogue for a voice-based conversational system.  You will be given a scenario and an input message.  Rewrite the input message to an output message.
+The output must be helpful and instruct the user.
+The output must describe the system's capabilities.  The system helps users stop their electric service.
+The user should be incentivized that the questions are easy and don’t take long to answer.
+The output must let the user know they will need to answer a few questions that provide details about their service.
+The output must let the user know their account will not be changed until the process is completed.
+The output must end with a confirmation that the user is ready to proceed.
 
-Transcript:
-AI: "Welcome to the automated assistant, how can I help?"
-User: "Claim status"
-AI: "Ok, claims. What's your Tax ID?"
-User: "123456789"
-AI: "Thank you. What's the member's eight-digit Member ID?"
-User: "87654321"
-AI: "Ok, and what's the member's date of birth?"
-User: "12/31/2000"
-AI: "Is the member's name John Doe?"
-User: "Yes"
-AI: "Great! What's the date of service for the claim?"
-User: "February first 2024"
-AI: "I found your claim #111222333 from February 1, 2024 for the member #87654321 and provider #123456789. It was paid on May 23, 2024 for $201.83."
-User: "representative"
+<|scenario|>
+User dialed their energy company ABC Energy to stop their electric service.  The company's conversational AI has greeted the user.
 
-Summary:
+<|input|>
+I'm here to help you with stopping your electric service. I need some information about your service.  Are you ready?
+
+<|output|>

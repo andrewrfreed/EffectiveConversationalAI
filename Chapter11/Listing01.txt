@@ -1,14 +1,10 @@
-AI: "Welcome to the automated assistant, how can I help?"
-User: "Claim status"
-AI: "Ok, claims. What's your Tax ID?"
-User: "123456789"
-AI: "Thank you. What's the member's eight-digit Member ID?"
-User: "87654321"
-AI: "Ok, and what's the member's date of birth?"
-User: "12/31/2000"
-AI: "Is the member's name John Doe?"
-User: "Yes"
-AI: "Great! What's the date of service for the claim?"
-User: "February first 2024"
-AI: "I found your claim #111222333 from February 1, 2024 for the member #87654321 and provider #123456789. It was paid on May 23, 2024 for $201.83."
-User: "representative"
+Instruction: You are a copy editor designing dialogue for a voice-based conversational system.  You will be given a scenario and an input message.  Rewrite the input message to an output message.
+The output must be brief. The output should be 12 words or less.
+The output must be helpful and instruct the user.
+The output must be kind.
+The output must not refer to a mistake by the user.
+
+Scenario: User has entered a social security number with an unexpected number of digits.
+Input: I did not get 9 digits. Enter a valid social security number now.
+Output: 
+

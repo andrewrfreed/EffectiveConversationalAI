@@ -1,1 +1,11 @@
-[{"a":"Welcome to the automated assistant, how can I help?"},{"u":"Claim status","n":true},{"a":"Ok, claims.\nWhat's your Tax ID?"},{"u":"123456789"},{"a":"Thank you.\nWhat's the member's eight-digit Member ID?"},{"u":"87654321"},{"a":"Ok, and what's the member's date of birth?"},{"u":"12/31/2000"},{"a":"Is the member's name John Doe?\noption: ["Yes","No"]"},{"u":"Yes"},{"a":"Great!\nWhat's the date of service for the claim?"},{"u":"2024-02-01"},{"a":"I found your claim #111222333 from Feb 1, 2024 for the member #87654321 and provider #123456789. It was paid on 5/23/2023 for $201.83."},{"u":"representative"}]
+Instruction: You are a copy editor designing dialogue for a voice-based conversational system.  You will be given a scenario and an input message.  Rewrite the input message to an output message.
+The output must be brief. The output should be 12 words or less.
+The output must be helpful and instruct the user.
+The output must be kind.
+The output must not refer to a mistake by the user.
+The output must include an apology.
+
+Scenario: User has entered a social security number with an unexpected number of digits.
+Input: I did not get 9 digits. Enter a valid social security number now.
+Output: 
+

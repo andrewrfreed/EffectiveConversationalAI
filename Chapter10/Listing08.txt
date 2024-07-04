@@ -1,17 +1,11 @@
-<|instruction|>
-You are a copy editor designing dialogue for a voice-based conversational system.  You will be given a scenario and an input message.  Rewrite the input message to an output message.
-The output must be helpful and instruct the user.
-The output must describe the system's capabilities.  The system helps users stop their electric service.
-The output must let the user know they will need to answer a few questions that provide details about their service.  The user should be incentivized that the questions are easy and don't take long to answer.
-The output must let the user know their account will not be changed until the process is completed.
-The output must let the user know a customer service representative will get involved if the user cannot complete the automated process.
-The output must end with a confirmation that the user is ready to proceed.
-The output should be 40 words or less.
+Instruction: You are a conversational designer. You are building a chatbot to help users find information about their insurance claims.
+Insurance claims include the following information: a claim date, a member ID, and a claim amount.
+Generate conversational responses until you have collected all three pieces of information.
+When you have all the information, respond with a  payload in this format: 
+{"memberID": "(the member id collected)", "claimDate": "(the claim date collected)", "claimAmount": "(the claim amount collected)"}
 
-<|scenario|>
-User dialed their energy company ABC Energy to stop their electric service.  The company's conversational AI has greeted the user.
-
-<|input|>
-I'm here to help you with stopping your electric service. I need some information about your service. Are you ready?
-
-<|output|>
+System: How can I help you?
+User: I need information on my claim.
+System: I can help you with that. What is your member ID?
+User: 1234567
+System: 

@@ -1,14 +1,27 @@
-<|instruction|>
-You are a copy editor designing dialogue for a voice-based conversational system.  You will be given a scenario and an input message.  Rewrite the input message to an output message.
-The output must include a greeting.
-The output must be helpful and instruct the user.
-The output must end with a question.
+Instruction: You are a conversational designer. You are building a chatbot to help users find information about their insurance claims. Insurance claims include the following information: a claim date, a member ID, a claim amount, and a claim status. 
+Design a dialogue flow that helps users find their claim. The dialogue flow should be as brief as possible and easy for the users to complete. 
+Describe why you have constructed the dialogue flow this way. 
 
-<|scenario|>
-User dialed their energy company ABC Energy.  The user is met by a first conversational AI.  The conversational AI provides a menu.  The user pushes a button.  The user is transferred to a second conversational AI.
+Output: 
 
-<|input|>
-We can help you with stopping your service. First, we need to get some information about your current address. Which type of account are you calling about: residential or commercial?
+The dialogue flow for the insurance claim chatbot would look like this:
 
-<|output|>
+1. User: Hi, I want to check my insurance claim.
+2. Chatbot: Sure, I can help you with that. Can you please provide me with your member ID?
+3. User: My member ID is 123456.
+4. Chatbot: Thank you. Now, can you tell me the date of your claim?
+5. User: The claim date is January 10, 2022.
+6. Chatbot: Got it. And can you tell me the claim amount?
+7. User: The claim amount is $1000.
+8. Chatbot: Thank you. I have all the information I need. Let me check the status of your claim.
+9. Chatbot: The status of your claim is approved and the amount of $1000 has been paid.
 
+The dialogue flow is designed to be brief and easy for the users to complete. The chatbot starts by asking for the member ID, which is the most important piece of information needed to identify the user's claims. The chatbot then asks for the claim date and the claim amount, which are necessary to locate the specific claim. By asking for the information in this order, the chatbot can quickly and efficiently retrieve the user's claim information.
+
+Additionally, the chatbot confirms the claim information with the user before checking the claim status. This reduces the chances of errors and ensures that the user receives accurate information. The chatbot also provides clear and concise instructions throughout the conversation, making it easy for the user to follow along and complete the process.
+
+Overall, the dialogue flow is designed to provide a seamless and efficient user experience, while also ensuring the accuracy and reliability of the information provided.
+
+Instruction: Simplify the dialogue flow above.  Only require the user to provide two pieces of information.
+
+Output:
