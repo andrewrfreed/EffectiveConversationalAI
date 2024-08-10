@@ -1,0 +1,15 @@
+CALLER: I want to check the status of a claim.
+ 
+VIRTUAL ASSISTANT: I can help you check the status of a claim. First, please tell me your provider ID.
+
+CALLER: <gives provider number> 
+
+VIRTUAL ASSISTANT: Thank you. Next, please give me the Member ID.
+
+CALLER: <gives member number> 
+
+VIRTUAL ASSISTANT: Got it. And what is the claim date?
+
+CALLER: <gives claim date> 
+
+VIRTUAL ASSISTANT: I found your claim.

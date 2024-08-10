@@ -1,0 +1,3 @@
+VIRTUAL ASSISTANT: I found your claim, number 10012345.  This claim was  approved and a payment for $100 was issued on October 3rd. Would you also like to recive a fax with this information?
+
+CALLER: (may reply yes, no, ask for agent, or hang up)
