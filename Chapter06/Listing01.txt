@@ -1,0 +1,13 @@
+from langchain.document_loaders import TextLoader
+from langchain.text_splitter import CharacterTextSplitter
+from langchain.vectorstores import Chroma
+
+loader = TextLoader(filename)
+documents = loader.load()
+text_splitter = CharacterTextSplitter(chunk_size=1000, chunk_overlap=0)
+texts = text_splitter.split_documents(documents)
+
+from langchain.embeddings import HuggingFaceEmbeddings
+
+embeddings = HuggingFaceEmbeddings()
+docsearch = Chroma.from_documents(texts, embeddings)

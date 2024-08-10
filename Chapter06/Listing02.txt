@@ -1,0 +1,49 @@
+%pip install -qU langchain-text-splitters
+
+from langchain_text_splitters import HTMLHeaderTextSplitter
+
+html_string = """
+<!DOCTYPE html>
+<html>
+<body>
+    <div>
+        <h1>Introduction</h1>
+        <p>This is the introduction section of the document.</p>
+        <div>
+            <h2>Chapter 1: Getting started</h2>
+            <p>This section covers the basics of getting started.</p>
+                    <h3>Section 1.1 Setup</h3>
+                    <p>This subsection explains the setup process.</p>
+                    <h3>Section 1.2 Configuration</h3>
+                    <p>This subsection details the configuration options.</p>
+        </div>
+        <div>
+            <h2>Chapter 2: Advanced Techniques</h2>
+            <p>This section dives into more advanced techniques.</p>
+        </div>
+        <br>
+        <p>What you learned in the Introduction.</p>
+    </div>
+</body></html>
+""" 
+
+headers_to_split_on = [
+    ("h1", "Header 1"),
+    ("h2", "Header 2"),
+    ("h3", "Header 3"),
+]
+
+html_splitter = HTMLHeaderTextSplitter(headers_to_split_on=headers_to_split_on)
+html_header_splits = html_splitter.split_text(html_string)
+## Output
+html_header_splits
+
+[Document(page_content='Introduction'),
+ Document(page_content= This is the introduction section of the document. \n Chapter 1: Getting started Section 1.1 Setup Section 1.2 Configuration', metadata={'Header 1': 'Introduction'}),
+ Document(page_content= 'This section covers the basics of getting started.', metadata={'Header 1': 'Introduction', 'Header 2': Chapter 1: Getting started '}),
+ Document(page_content= This subsection explains the setup process.', metadata={'Header 1': 'Introduction', 'Header 2': Chapter 1: Getting started ', 'Header 3': Section 1.1 Setup '}),
+ Document(page_content= This subsection details the configuration options.', metadata={'Header 1': 'Introduction', 'Header 2': Chapter 1: Getting started ', 'Header 3': Section 1.2 Configuration '}),
+ Document(page_content=' Chapter 2: Advanced Techniques', metadata={'Header 1': 'Introduction'}),
+ Document(page_content= This section dives into more advanced techniques.', metadata={'Header 1': 'Introduction', 'Header 2': ' Chapter 2: Advanced Techniques'}),
+ Document(page_content='What you learned in the Introduction.', metadata={'Header 1': 'Introduction'})]
+
