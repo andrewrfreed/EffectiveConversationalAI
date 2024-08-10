@@ -1,0 +1,14 @@
+User: hours of operation?
+Bot: To view our store hours, please select a location.
+Bot: (Columbus, Dublin, Westerville, Grandview)
+User: Columbus 
+Bot: Our Columbus store is open Monday through Friday, 8am - 8pm.
+
+User: hours of operation?
+Bot: To view our store hours, please select a location.
+Bot: (Columbus, Dublin, Westerville, Grandview)
+User: Dublin 
+Bot: Our Dublin store is open Monday through Friday, 9am - 9pm.
+
+User: hours of operation for Grandview?
+Bot: Our Grandview store is open Monday through Friday, 9am - 9pm.

@@ -1,0 +1,6 @@
+User: hours of operation?
+Bot: We are open Monday through Friday, 9am to 9pm.
+User: why did the chicken cross the road
+Bot: I'm afraid I don't understand. Please rephrase your question.
+User: cost for a cake?
+Bot: Our cakes typically cost around $30, with a $5 delivery fee.

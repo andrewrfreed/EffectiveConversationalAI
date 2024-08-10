@@ -1,0 +1,19 @@
+User: I want to order a cake
+Bot: I can take your cake order.
+Bot: What size cake do you need?
+Bot: (small, medium, large)
+User: large 
+Bot: (birthday, wedding, anniversary, retirement, all-occasion)
+User: birthday
+Bot: What flavor cake would you like?
+Bot: (vanilla, chocolate, marble)
+User: vanilla
+Bot: Which frosting would you like?
+User: strawberry
+Bot: Ok, I've got you down for a small vanilla birthday cake with strawberry frosting. Is that correct?
+User: yes
+Bot: Great. Your order has been accepted.  Your order subtotal is $30.00.
+Bot: Would you like to schedule your order for pickup or delivery? Please note there is a $5 delivery fee.
+Bot: (pickup, delivery)
+User: delivery
+(fulfillment details are omitted)
