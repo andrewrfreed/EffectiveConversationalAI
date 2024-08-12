@@ -1,0 +1,5 @@
+VIRTUAL ASSISTANT: Would you like to get a reminder by text message or phone call?
+
+CALLER: Yes
+
+VIRTUAL ASSISTANT: Great! Which would you like: a text message or a phone call? 

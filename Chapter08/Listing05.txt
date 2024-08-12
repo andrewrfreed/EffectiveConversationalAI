@@ -1,0 +1,11 @@
+VIRTUAL ASSISTANT: Which would you like to use to look up your account? The phone number, a social security number, or the account number?
+
+CALLER: The phone number
+
+VIRTUAL ASSISTANT: What is the phone number?
+
+CALLER: <provides phone number>
+
+VIRTUAL ASSISTANT: One moment while I look up your account.
+
+VIRTUAL ASSISTANT: I found your account. Next, please enter your verification passcode 

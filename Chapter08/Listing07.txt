@@ -1,0 +1,5 @@
+VIRTUAL ASSISTANT: Would you like to get a reminder by text message or phone call?
+
+CALLER: Yes
+
+VIRTUAL ASSISTANT: Sorry, I didn’t get that. Please choose text message or phone call. 

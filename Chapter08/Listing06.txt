@@ -1,0 +1,5 @@
+VIRTUAL ASSISTANT: Would you like to use the phone number you’re calling from to look up your account?
+
+CALLER: Yes
+
+VIRTUAL ASSISTANT: I found your account. Next, please enter your verification passcode 
