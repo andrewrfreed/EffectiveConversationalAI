@@ -1,5 +1,6 @@
 # Effective Conversational AI
-Site for the book "Effective Conversational AI", to-be-published through Manning.com (late 2024).  This is a sequel to the Conversational AI [book](https://www.manning.com/books/conversational-ai?utm_source=andrewrfreed&utm_medium=affiliate&utm_campaign=book_freed_creating_12_27_20&a_aid=andrewrfreed&a_bid=cc3c6977) written with [Manning Publications](https://www.manning.com/) and published in Fall 2021.
+Site for the book [Effective Conversational AI](https://mng.bz/yWYq), to-be-published through Manning.com (late 2024).  It is now available in Manning's Early Access Program (MEAP).
+This is a sequel to the Conversational AI [book](https://www.manning.com/books/conversational-ai?utm_source=andrewrfreed&utm_medium=affiliate&utm_campaign=book_freed_creating_12_27_20&a_aid=andrewrfreed&a_bid=cc3c6977) written with [Manning Publications](https://www.manning.com/) and published in Fall 2021.
 
 Effective Conversational AI is co-authored by Andrew Freed, Enikõ Rózsa, and Cari Jacobs.  The theme is improving your Conversational AI solution through traditional data science/software engineering methods as well as using Generative AI and large language models (LLMs).
 
